@@ -1,0 +1,38 @@
+name: bon_voyage
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  image_picker: ^0.8.2
+  tflite: ^1.1.2 
+  camera: ^0.8.1+5
+  splash_screen_view: ^3.0.0
+  animated_text_kit: ^4.2.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - images/
+  
+  fonts:
+  - family: Yomogi
+    fonts: 
+    - asset: fonts/Yomogi-Regular.ttf
+      weight: 400
